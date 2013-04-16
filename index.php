@@ -84,7 +84,7 @@
 <!--body content-->
 	<div class="container">
 		<div class="mission">
-			<h2>Terms and Conditions</h2>
+			<h2>Terms and Conditions + urls</h2>
 			<p>Please agree to the terms and conditions below to continue.</p>
 			<div id="terms">
 	          <h5>CONFIDENTIALITY NOTICE</h5>
