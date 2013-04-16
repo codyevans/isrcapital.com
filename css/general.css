@@ -1,0 +1,214 @@
+
+/*
+Bootstrap page: includes general styling.
+*/
+
+/********************************
+reset
+********************************/
+/*
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+*/
+
+
+/********************************
+general styles
+********************************/
+
+body {
+	background-color: #EEE;
+	background-image: url('../images/bkgdtexture.jpg');
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+	font-size: 0.85em;
+	color: #8D8D8D;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+*::selection {
+	background: red;
+	color:#fff;
+}
+
+*::-moz-selection {
+	background: red;
+	color:#fff;
+}
+
+*::-webkit-selection {
+	background: red;
+	color:#fff;
+}
+
+*::-O-selection {
+	background: red;
+	color:#fff;
+}
+	
+
+/********************************
+Top Navigation
+********************************/
+
+header {
+	min-width: 960px;
+	height: 50px;
+	padding: 10px 0 0;
+	background-color: #FFF;
+}
+
+.inner {
+	width: 760px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.inner img {
+	float: left;
+	margin-top: -22px;
+	margin-right: 30px;
+}
+
+nav {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+header ul {
+	list-style: none;
+}
+
+nav li {
+	float: left;
+	font-size: 0.85em;
+	text-transform: uppercase;
+}
+
+nav li:last-child {
+	margin-right: 0px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #8D8D8D;
+	margin-right: 45px
+}
+
+header nav ul li a:hover {
+	position: relative;
+	text-decoration: none;
+	background-color: #D6111B;
+	color: white;
+	border-radius: 0 10px 0 10px;
+	padding: 5px;
+	margin-right: 35px;
+	z-index: 100000;
+}
+
+
+/********************************
+Top Navigation Dropdown
+********************************/
+
+header nav li ul.dropdown {
+	display: block;
+ 	background-color: #FFF;
+ 	text-align: right;
+ 	margin-left: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    position: absolute;
+    border-radius: 0 0px 10px 0px;
+    top: -100px;
+    line-height: 20px;
+    z-index: 100;
+    opacity: 0;
+    transition:opacity 0.2s ease-in;
+	-webkit-transition:opacity 0.2s ease-in;
+	-moz-transition:opacity 0.2s ease-in; 
+	-O-transition:opacity 0.2s ease-in; 
+  }
+  
+header nav li:hover ul.dropdown {
+	display: block;
+	top: 38px;
+	opacity: 1;
+}
+  
+ header nav ul.dropdown li {
+ 	float: none;
+ 	border-bottom: 1px dotted #8D8D8D;
+ }
+ 
+ header nav ul.dropdown li:last-child {
+ 	float: none;
+ 	border-bottom: none;
+ }
+  
+ header nav ul.dropdown li a {
+ 	background: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+  
+header nav ul.dropdown li a:hover {
+ 	color: #D6111B;
+ 	text-decoration: none;
+ 	
+ }
+ 
+ #who {
+	width: 100px;
+ }
+ 
+ #funding {
+ 	width: 150px;
+ }
+
+#contact {
+	width: 100px;
+ } 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
