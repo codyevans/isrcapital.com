@@ -39,7 +39,7 @@
 					<li><a href="#">Who We Are</a>
 						<ul class="dropdown" id="who">
 							<li><a href="/isrcapital.com/team/">As A Team</a></li>
-							<li><a href="/isrcapital.com/_company.php">As A Company</a></li>
+							<li><a href="/isrcapital.com/company/">As A Company</a></li>
 							<li><a href="/isrcapital.com/_photos.php">Photo Gallery</a></li>
 						</ul>
 					</li>

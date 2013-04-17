@@ -1,4 +1,5 @@
-<?php include "template/_header.php"; ?>
+<?php $title = "Our Company"; ?>
+<?php include "../template/_header.php"; ?>
 
 <div class="herowidth">
 			<img src="../images/header/hero2.jpg" alt="Hero Image Two">
@@ -37,4 +38,4 @@
 		</div>
 	</div>
 
-<?php include "template/_footer.php"; ?>
+<?php include "../template/_footer.php"; ?>
