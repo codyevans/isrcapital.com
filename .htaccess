@@ -2,9 +2,13 @@
 # Rewrite Rules
 # ----------------------------------------------------------------------
 
-RewriteEngine on
+RewriteEngine On
 
 RewriteRule ^.*\.ph$ http://google.com
+
+RewriteRule ^home.php$ /isrcapital.com/home/ [R=301]
+RewriteRule ^_team.php$ /isrcapital.com/team/ [R=301]
+
 
 
 # ----------------------------------------------------------------------
@@ -63,4 +67,4 @@ RewriteRule ^.*\.ph$ http://google.com
 # You can add custom pages to handle 500 or 403 pretty easily, if you like.
 # If you are hosting your site in subdirectory, adjust this accordingly
 #    e.g. ErrorDocument 404 /subdir/404.html
-ErrorDocument 404 /404.html
+ErrorDocument 404 /isrcapital.com/404.html

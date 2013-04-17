@@ -161,7 +161,7 @@
 
 	        <!-- TERM AGREE FORM -->
 
-	        <form name="form1" action="home.php" method="#" onsubmit='return validate(this)'>
+	        <form name="form1" action="home/" method="#" onsubmit='return validate(this)'>
 	          <p>
 	            <input class="check" type="checkbox" name="agree" id="agree">
 	            <label class="agree" for="agree">I Agree to the Terms and Conditions.</label>
@@ -201,7 +201,7 @@
 		<div class="container">
 			<div id="legal">
 				<ul>
-					<li>©2012 ISRCapital</li>
+					<li>©<?php echo date('Y'); ?> ISRCapital</li>
 					<li>.....</li>
 					<li><a href="#">Legal Disclosures</a></li>
 					<li>.....</li>

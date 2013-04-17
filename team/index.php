@@ -1,8 +1,9 @@
-<?php include "template/_header.php"; ?>
+<?php $title = "Our Team"; ?>
+<?php include "../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="images/header/hero6.jpg" alt="Hero Image Six">
-			<img src="images/header/hero6.jpg" alt="Hero Image Six">
+			<img src="../images/header/hero6.jpg" alt="Hero Image Six">
+			<img src="../images/header/hero6.jpg" alt="Hero Image Six">
 		</div>
 	</div>
 
@@ -66,4 +67,4 @@
 		</div>
 	</div>
 	
-<?php include "template/_footer.php"; ?>
+<?php include "../template/_footer.php"; ?>

@@ -26,7 +26,7 @@
 		<div class="container">
 			<div id="legal">
 				<ul>
-					<li>©2012 ISRCapital</li>
+					<li>©<?php echo date('Y'); ?> ISRCapital</li>
 					<li>.....</li>
 					<li><a href="_legalDisclosure.php">Legal Disclosures</a></li>
 					<li>.....</li>
