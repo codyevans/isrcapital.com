@@ -40,19 +40,19 @@
 						<ul class="dropdown" id="who">
 							<li><a href="/isrcapital.com/team/">As A Team</a></li>
 							<li><a href="/isrcapital.com/company/">As A Company</a></li>
-							<li><a href="/isrcapital.com/_photos.php">Photo Gallery</a></li>
+							<li><a href="/isrcapital.com/photos/">Photo Gallery</a></li>
 						</ul>
 					</li>
 					<li><a href="#">Portfolio</a>
 						<ul class="dropdown" id="funding">
-							<li><a href="/isrcapital.com/_united_states.php">United States</a></li>
+							<li><a href="/isrcapital.com/united-states/">United States</a></li>
 						</ul>
 					</li>
-					<li><a href="/isrcapital.com/_services.php">ISR Services</a></li>
+					<li><a href="/isrcapital.com/services/">ISR Services</a></li>
 					<li><a href="#">Contact Us</a>
 						<ul class="dropdown" id="contact">
-							<li><a href="/isrcapital.com/_contact.php">Contact</a></li>
-							<li><a href="downloads/Intake_Form.pdf" target="blank">Intake Form</a></li>
+							<li><a href="/isrcapital.com/contact/">Contact</a></li>
+							<li><a href="/downloads/Intake_Form.pdf" target="blank">Intake Form</a></li>
 						</ul>
 					</li>
 				</ul>

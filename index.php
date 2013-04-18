@@ -84,7 +84,7 @@
 <!--body content-->
 	<div class="container">
 		<div class="mission">
-			<h2>Terms and Conditions + urls</h2>
+			<h2>Terms and Conditions</h2>
 			<p>Please agree to the terms and conditions below to continue.</p>
 			<div id="terms">
 	          <h5>CONFIDENTIALITY NOTICE</h5>
@@ -213,19 +213,18 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
 	<script src="js/jquery.infieldlabel.min.js" type="text/javascript" charset="utf-8"></script>
-	
-	<script type="text/javascript" charset="utf-8">
-		$(function(){ $("label").inFieldLabels(); });
-	</script>
-	
-	
-	<script src="js/jquery.validate.js" type="text/javascript"></script>
 
 	<script type="text/javascript">
-	$(document).ready(function() {
-		$("#commentForm").validate();
-	});
-	</script>
 
+		$('div.inner li a, div#subnav li a, div#legal li a').click(function(e) {
+
+			alert("Please Agree to the terms and conditions");
+
+			e.preventDefault();
+
+		});
+
+
+	</script>
 </body>
 </html>

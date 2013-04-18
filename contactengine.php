@@ -16,12 +16,11 @@ $success = mail($recipient, $subject, $formcontent, $mailheader);
 // redirect to success page
 // CHANGE THE URL BELOW TO YOUR "THANK YOU" PAGE
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=_contactthanks.php\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=/isrcapital.com/contact-thanks/\">";
 }
 else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=_contacterror.php\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=/isrcapital.com/contact-error/\">";
 }
 
 
 
-?>
