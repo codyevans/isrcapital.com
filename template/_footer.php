@@ -44,7 +44,6 @@
 		$(function(){ $("label").inFieldLabels(); });
 	</script>
 	
-	
 	<script src="../js/jquery.validate.js" type="text/javascript"></script>
 
 	<script type="text/javascript">

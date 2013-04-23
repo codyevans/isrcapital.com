@@ -1,0 +1,187 @@
+
+/* Team Single ================================================== */
+
+.bioSpace {
+	margin-bottom: 30px;
+}
+
+.teamModule {
+	width: 100%;
+	background: #FFF;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	padding: 0px;
+	border-radius: 5px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.founder .teamTitles {
+	background: #c40b15;
+	color: white;
+	padding: 20px;
+}
+
+.core .teamTitles {
+	background: #c40b15;
+	color: white;
+	padding: 20px;
+}
+
+.teamTitles {
+	/*background: #c40b15;*/
+	border-top: 10px solid #c40b15;
+	padding: 20px;
+}
+
+.teamTitles h3, .teamTitles h4 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.teamTitles h3 {
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #c40b15;
+}
+
+.teamTitles h4 {
+	margin-top: 3px;
+}
+
+.teamContent {
+	padding: 20px;
+	padding-top: 0px;
+}
+
+.teamContent p {
+	margin-top: 0px;
+	padding: 0px;
+}
+
+
+
+.teamGroup {
+
+}
+
+.teamGroup:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+
+.teamGroup a {
+	color: #8D8D8D;
+  text-decoration: none;
+}
+
+.teamBox {
+box-sizing: border-box;
+  padding: 2em;
+  display: block;
+  width: 49%;
+  height: 200px;
+  float: left;
+  /*margin: -1px 0 0 -1px;*/
+  margin-right: 17px;
+  margin-bottom: 17px;
+  background: linear-gradient(
+     white, white 50%, #c40b15 50%, #c40b15
+  );
+  background-size: 100% 202%;
+ box-shadow: 0 0 8px rgba(0,0,0,0.2);
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+  transition: all 0.2s ease;
+  animation: down-bump 0.4s ease;
+  -webkit-animation: down-bump 0.4s ease;
+}
+
+.last {
+	margin-right: 0px;
+}
+
+.teamBox h2 {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.teamBox h2 span {
+	font-size: 20px;
+  color: #c40b15;
+  text-transform: uppercase;
+}
+
+.teamBox p {
+ 
+}
+
+.teamBox:hover {
+  background-position: 100% 100%;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+  animation: up-bump 0.4s ease;
+  -webkit-animation: up-bump 0.4s ease;
+}
+
+.teamBox:hover h2 {
+  color: #FFF;
+}
+
+.teamBox:hover h2 span {
+  color: #FFF;
+}
+
+.teamBox:hover p {
+  color: #FFF;
+}
+
+
+@keyframes up-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+@keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+}
+
+@-webkit-keyframes up-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+@-webkit-keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
