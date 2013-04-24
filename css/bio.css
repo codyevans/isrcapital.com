@@ -1,5 +1,5 @@
 
-/* Team Single ================================================== */
+/* Team Single =================================================== */
 
 .bioSpace {
 	margin-bottom: 30px;
@@ -58,14 +58,13 @@
 	padding: 0px;
 }
 
-/* Team Group ======================================================== */
+/* Team Group ================================================================= */
 
 .teamGroup:after {
 	content: '';
 	display: table;
 	clear: both;
 }
-
 
 .teamGroup a {
 	color: #8D8D8D;
@@ -98,7 +97,6 @@ box-sizing: border-box;
   margin-right: 0px;
 }
 
-
 .teamBox h2 {
 	font-size: 14px;
 	line-height: 20px;
@@ -110,9 +108,17 @@ box-sizing: border-box;
   text-transform: uppercase;
 }
 
-.teamBox p {
- 
+.teamBox-active {
+  background: #E7E7E7;
+  box-shadow: none;
+  border: 1px solid #D4D4D4;
 }
+
+.teamBox-active h2 span {
+  color: #8D8D8D;
+}
+
+/* Hover Animation =============================================================== */
 
 .teamBox:hover {
   background-position: 100% 100%;
@@ -134,6 +140,9 @@ box-sizing: border-box;
   color: #FFF;
 }
 
+.teamBox-active:hover h2, .teamBox-active:hover h2 span, .teamBox-active:hover p { 
+  color: #8D8D8D; 
+}
 
 @keyframes up-bump {
   0% { padding-top: 2em; }
@@ -156,7 +165,6 @@ box-sizing: border-box;
   50% { padding-top: 2.5em; }
   100% { padding-top: 2em; }
 }
-
 
 
 /* Media Queries for Team Bios ======================================================== */
@@ -193,21 +201,3 @@ box-sizing: border-box;
   }
 
 } /* end 480 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
