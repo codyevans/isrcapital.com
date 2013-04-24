@@ -58,11 +58,7 @@
 	padding: 0px;
 }
 
-
-
-.teamGroup {
-
-}
+/* Team Group ======================================================== */
 
 .teamGroup:after {
 	content: '';
@@ -80,7 +76,7 @@
 box-sizing: border-box;
   padding: 2em;
   display: block;
-  width: 49%;
+  width: 32%;
   height: 200px;
   float: left;
   /*margin: -1px 0 0 -1px;*/
@@ -98,9 +94,10 @@ box-sizing: border-box;
   -webkit-animation: down-bump 0.4s ease;
 }
 
-.last {
-	margin-right: 0px;
+.teamBox:nth-of-type(3n+3) {
+  margin-right: 0px;
 }
+
 
 .teamBox h2 {
 	font-size: 14px;
@@ -162,11 +159,40 @@ box-sizing: border-box;
 
 
 
+/* Media Queries for Team Bios ======================================================== */
 
+@media (max-width: 1024px) {
 
+  .teamBox {
+    width: 31.5%;
+  }
 
+} /* end 1024 */
 
+@media (max-width: 600px) {
 
+  .teamBox {
+    width: 48%;
+  }
+
+   .teamBox:nth-of-type(3n+3) {
+    margin-right: 17px;
+  }
+
+   .teamBox:nth-of-type(2n+2) {
+    margin-right: 0px;
+  }
+
+} /* end 600 */
+
+@media (max-width: 480px) {
+
+  .teamBox {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+} /* end 480 */
 
 
 

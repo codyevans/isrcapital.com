@@ -33,7 +33,7 @@
 <!--top navigation-->
 	<header>
 		<div class="inner">
-		<img src="../images/logo2.jpg" class="NavLogo" alt="ISRCapital Logo">
+		<img src="/isrcapital.com/images/logo2.jpg" class="NavLogo" alt="ISRCapital Logo">
 			<nav>
 				<ul>
 					<li><a href="/isrcapital.com/home/">Home</a></li>
