@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Jessica Ader"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Jessica Ader</h3>
+				<h4 class="title">Geologist / GIS Specialist</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					The role of in-house GIS Specialist/Geologist belongs to Jessica Ader. She constructs and maintains all maps of ISRC’s project areas using ArcGIS software. She layers various types of geospatial, geologic, and legal data into one understandable whole, creating highly accurate and relevant visual representations for use internally and externally. She also conducts extensive research for all the project areas with regards to feasibility studies, permitting, land use and legal boundaries. She makes site visits and works closely with associated government agencies for the ultimate end of bringing mining projects to production. Along with her chipper can-do attitude, she brings to the table her technical expertise and researching skills.  
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -86,7 +99,7 @@
 				<p>Click to read Bruce's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/jessica-ader/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/jessica-ader/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Jessica Ader</span><br>Geologist / GIS Specialist</h2>
 				<p>Click to read Jessica's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

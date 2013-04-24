@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Cody Evans"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Cody Evans</h3>
+				<h4 class="title">Graphic Designer</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					Cody joined the ISR Capital team in 2011 and came equipped with a diverse set of skills and a B.F.A. in Graphic Design from Boise State University. As ISR Capital’s in-house graphic designer, Cody is responsible for all things visual. He can be found working on projects that involve print design, motion design, web design and illustration. However, his specialty is turning pixels to code with his knowledge of HTML, CSS, JavaScript and PHP.
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -66,7 +79,7 @@
 				<p>Click to read Allison's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/cody-evans/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/cody-evans/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Cody Evans</span><br>Graphic Designer</h2>
 				<p>Click to read Cody's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

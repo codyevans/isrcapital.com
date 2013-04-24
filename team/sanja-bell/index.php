@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Sanja Bell"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Sanja Bell</h3>
+				<h4 class="title">Executive Assistant</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					As ISRC’s Executive Assistant, Sanja Bell is in charge of keeping the trains running on time. She came to Boise (and ISRC) via Amman, Jordan where she refined her negotiation skills in the local souks and was active in the diplomatic community. Prior to joining ISR Capital, Sanja worked as a newspaper editor, radio host, communications consultant and journalist reporting on Central European affairs, and as a key team member advising senior Serbian leaders. Sanja received a Bachelor’s degree in Communications in her native Belgrade, Serbia, and is also just a few credits shy of receiving her second Bachelor’s degree in Journalism.  
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -91,7 +104,7 @@
 				<p>Click to read Jessica's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/sanja-bell/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/sanja-bell/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Sanja Bell</span><br>Executive Assistant</h2>
 				<p>Click to read Sanja's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

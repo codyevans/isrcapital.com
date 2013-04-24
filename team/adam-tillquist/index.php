@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Adam Tillquist"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,26 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Adam Tillquist</h3>
+				<h4 class="title">Geologist</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					Adam Tillquist joined the team at ISRC this past fall as a junior geologist. 
+					He recently completed his studies at Boise State University and is eager to 
+					learn as much as possible about the world of mining. His experience includes 
+					work at the Atlanta Gold Mine as a geological technician and he has transferred 
+					those acquired skills to the various projects at ISRC. As an avid outdoorsman he 
+					relishes the opportunity to spend time in the scenic Idaho terrain and hopes to 
+					contribute significantly to the goals of ISR Capital.
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -76,7 +95,7 @@
 				<p>Click to read Brian's bio...</p>
 			</a>
 				
-			<a href="/isrcapital.com/team/adam-tillquist/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/adam-tillquist/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Adam Tillquist</span><br>Geologist</h2>
 				<p>Click to read Adam's bio...</p>
 			</a>
@@ -105,4 +124,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

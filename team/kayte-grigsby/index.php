@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Kayte Grigsby"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Kayte Grigsby</h3>
+				<h4 class="title">Project Manager</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					Kayte Grigsby came to ISR Capital in October 2012, with broad knowledge and experience in business administration. She worked as an executive assistant for a time, but is currently learning the ropes of project management. Kayte grew up in Boise, Idaho. Upon graduating high school, she spent a couple of years studying vocal performance and piano at the College of Southern Idaho in Twin Falls, Idaho. After receiving an Associate’s Degree in Music, she transferred to the Jon M. Huntsman School of Business at Utah State University, where she received a Bachelor’s degree in Business Administration in May 2011.
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -56,7 +69,7 @@
 				<p>Click to read Dhwanit's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/kayte-grigsby/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/kayte-grigsby/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Kayte Grigsby</span><br>Project Manager</h2>
 				<p>Click to read Kayte's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

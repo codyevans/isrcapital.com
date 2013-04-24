@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Allison Mahn"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Allison Mahn</h3>
+				<h4 class="title">Accounts Payable & Assistant to the CFO</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					Allison possesses eight years of experience in a supportive role involving office management, specifically in the area of finance. Currently she provides complex, diverse, and confidential administrative support services to the CFO, reviewing daily operations and preparing requests for payment to ensure that financial practices and reports comply with the business plan of ISR Capital, often in a highly-sensitive and rapidly changing environment. With strengths in various forms of administration, her responsibilities include ensuring preparation and participation in executive meetings, providing guidance and training to other support staff, and maintaining both discipline as well as flexibility so that the needs of the company are met with excellence.
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -61,7 +74,7 @@
 				<p>Click to read Kayte's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/allison-mahn/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/allison-mahn/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Allison Mahn</span><br>Accounts Payable & Assistant to the CFO</h2>
 				<p>Click to read Allison's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

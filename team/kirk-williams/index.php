@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Kirk Williams"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">W. Kirk Williams</h3>
+				<h4 class="title">Corporate Counsel / Holdings Manager</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					W. Kirk Williams joined ISR Capital in June, 2012. He is a licensed member of the Idaho, Nevada, California, Wyoming and Colorado State Bars and holds a CPL designation. His legal practice before joining ISR Capital emphasized land-related and transactional issues for the natural resources industries. Kirk has three decades of legal and practical experience in structuring mining joint venture agreements, complex acquisitions and divestments domestically and internationally; determining title in mining districts and petroleum basins; conducting public lands practice for locatable, leasable, and common variety minerals; negotiating and drafting leases and options for the mining and petroleum industries. His recent employment prior to joining ISR Capital included Baird Hanson Williams LLP, as a name partner based in Boise, and BHP (now BHP Billiton) based in San Francisco, as Senior Counsel. Kirk holds a Juris Doctor degree from the University of Wyoming and a Bachelor of Science degree in Geology from the University of Wisconsin-Madison.
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -36,7 +49,7 @@
 				<p>Click to read Ryan's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/kirk-williams/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/kirk-williams/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>W. Kirk Williams</span><br>Corporate Counsel / Holdings Manager</h2>
 				<p>Click to read Kirks's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

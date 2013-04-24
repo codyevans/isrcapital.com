@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Ryan McDermott"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Ryan McDermott</h3>
+				<h4 class="title">Vice President & Senior Geologist</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					Ryan McDermott is a dynamic and highly skilled senior manager and geologist with successful background in exploration and project development, modeling, environmental planning and permitting, and economic analysis of precious metals deposits in North and South America, Asia, Australia, and Africa.  He is the Director of Mining Operations for ISRCapital, overseeing all aspects of ISR Capital’s mining portfolio.
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -31,7 +44,7 @@
 				<p>Click to read Debra's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/ryan-mcdermott/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/ryan-mcdermott/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Ryan McDermott</span><br>Vice President & Senior Geologist</h2>
 				<p>Click to read Ryan's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

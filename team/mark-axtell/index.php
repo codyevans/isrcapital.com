@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Mark Axtell"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Mark E Axtell</h3>
+				<h4 class="title">Vice President, Investment Banking</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					Mr. Axtell has 19 years of experience in the finance and accounting industry, serving in managerial and technical roles at several Fortune 500 companies. He has a strong finance background, serving as a lead team member on multiple mergers and acquisitions in the agriculture and food industry sectors. He holds a B.S. degree in Business Administration from the University of Arizona and an M.B.A. degree in Finance from the Graziadio School of Business at Pepperdine University. He also has certifications as a Chartered Financial Analyst and as a Certified Management Accountant candidate.
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -41,7 +54,7 @@
 				<p>Click to read Kirks's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/mark-axtell/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/mark-axtell/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Mark E Axtell</span><br>Vice President, Investment Banking</h2>
 				<p>Click to read Mark's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Bruce Thorndycraft"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Bruce Thorndycraft</h3>
+				<h4 class="title">Metallurgical Engineer</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					Bruce has 45 years of metallurgical and mineral processing experience. He has a B.S. in Chemical Engineering and an M.S. in Metallurgical Engineering. He has managed and consulted for mining operations in Utah, Colorado, Nevada, British Columbia as well as Nova Scotia, Mexico, and South America. For ISR Capital, Bruce is developing the mining mill plans for a specially designed modular plant that can be easily replicated at various gold project sites. For Garnet USA, Bruce performed the initial detailed assessment and forensic analysis of the existing Garnet USA plant and equipment. The evaluation of what would be able to contribute to production and what should be salvaged or scrapped was instrumental to the future design and utility of the project and its direction.  
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -81,7 +94,7 @@
 				<p>Click to read Adam's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/bruce-thorndycraft/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/bruce-thorndycraft/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Bruce Thorndycraft</span><br>Metallurgical Engineer</h2>
 				<p>Click to read Bruce's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>

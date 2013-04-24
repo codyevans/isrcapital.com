@@ -1,9 +1,9 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "Debra Riddle"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
@@ -13,7 +13,20 @@
 		<div class="mission bioSpace">
 			<h2>our team</h2>
 		</div>
-		
+
+		<div class="teamModule">
+			<div class="teamTitles">
+				<h3 class="name">Debra Riddle</h3>
+				<h4 class="title">Chief Financial Officer</h4>
+			</div>
+
+			<div class="teamContent">
+				<p>
+					With degrees in computer programming and accounting, Debra has over 20 years of experience in managing financial processes, decisions, and investments. She works directly with the CEO on the strategic vision of ISR Capital and assists in the development of new businesses and identification of new funding opportunities. In addition to initiating accounting procedures specific to the needs of multiple companies, Debra has developed spreadsheets and maintained data to determine ROI, reconciled numerous company and bank accounts, and performed audits, all while ensuring data integrity, synchronization, and archiving to ensure complete and accurate record-keeping for ISR Capital. As the CFO of ISR Capital, Debra’s knowledge, expertise, and ceaseless optimism are vital to ISRC’s success.
+				</p>
+			</div>
+		</div><?php //end module ?>
+
 		<div class="teamGroup">
 
 			<a href="/isrcapital.com/team/raymond-ku/" class="teamBox" title="click for more...">
@@ -26,7 +39,7 @@
 				<p>Click to read Sima's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/debra-riddle/" class="teamBox" title="click for more...">
+			<a href="/isrcapital.com/team/debra-riddle/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Debra Riddle</span><br> Chief Financial Officer</h2>
 				<p>Click to read Debra's bio...</p>
 			</a>
@@ -105,4 +118,4 @@
 
 	</div><?php //end container ?>
 	
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>
