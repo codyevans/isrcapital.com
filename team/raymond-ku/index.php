@@ -2,8 +2,8 @@
 <?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../../images/header/hero-team.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-raymond.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../../images/header/hero-raymond.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>
 	</div>
 
