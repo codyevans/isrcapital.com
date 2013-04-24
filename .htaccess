@@ -6,17 +6,17 @@ RewriteEngine On
 
 RewriteRule ^.*\.ph$ http://google.com
 
-RewriteRule ^home.php$ /isrcapital.com/home/ [R=301]
-RewriteRule ^_team.php$ /isrcapital.com/team/ [R=301]
-RewriteRule ^_company.php$ /isrcapital.com/company/ [R=301]
-RewriteRule ^_photos.php$ /isrcapital.com/photos/ [R=301]
-RewriteRule ^_united_states.php$ /isrcapital.com/united-states/ [R=301]
-RewriteRule ^_services.php$ /isrcapital.com/services/ [R=301]
-RewriteRule ^_contact.php$ /isrcapital.com/contact/ [R=301]
-RewriteRule ^_contactthanks.php$ /isrcapital.com/contact-thanks/ [R=301]
-RewriteRule ^_contacterror.php$ /isrcapital.com/contact-error/ [R=301]
-RewriteRule ^_legalDisclosure.php$ /isrcapital.com/legal-disclosure/ [R=301]
-RewriteRule ^_privacyPolicy.php$ /isrcapital.com/privacy-policy/ [R=301]
+RewriteRule ^home.php$ /home/ [R=301]
+RewriteRule ^_team.php$ /team/ [R=301]
+RewriteRule ^_company.php$ /company/ [R=301]
+RewriteRule ^_photos.php$ /photos/ [R=301]
+RewriteRule ^_united_states.php$ /united-states/ [R=301]
+RewriteRule ^_services.php$ /services/ [R=301]
+RewriteRule ^_contact.php$ /contact/ [R=301]
+RewriteRule ^_contactthanks.php$ /contact-thanks/ [R=301]
+RewriteRule ^_contacterror.php$ /contact-error/ [R=301]
+RewriteRule ^_legalDisclosure.php$ /legal-disclosure/ [R=301]
+RewriteRule ^_privacyPolicy.php$ /privacy-policy/ [R=301]
 
 
 

@@ -13,8 +13,8 @@
 			</form>
 			<div id="subnav" class="list">
 				<ul>
-					<li><a href="/isrcapital.com/home/">Home</a></li>
-					<li><a href="/isrcapital.com/contact/">Contact</a></li>
+					<li><a href="/home/">Home</a></li>
+					<li><a href="/contact/">Contact</a></li>
 					<li><a href="http://isrcapital.wordpress.com" target="blank">Blog</a></li>
 					<li><a href="#">Log in</a></li>
 				</ul>
@@ -28,9 +28,9 @@
 				<ul>
 					<li>©<?php echo date('Y'); ?> ISRCapital</li>
 					<li>.....</li>
-					<li><a href="/isrcapital.com/legal-disclosure/">Legal Disclosures</a></li>
+					<li><a href="/legal-disclosure/">Legal Disclosures</a></li>
 					<li>.....</li>
-					<li><a href="/isrcapital.com/privacy-policy/">Privacy Policy</a></li>
+					<li><a href="/privacy-policy/">Privacy Policy</a></li>
 				</ul>
 			</div>
 		</div>
