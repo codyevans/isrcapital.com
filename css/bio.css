@@ -1,9 +1,4 @@
 
-/*.herowidth img {
-  width: 100%;
-  height: 590px;
-}*/
-
 /* Team Single =================================================== */
 
 .bioSpace {
@@ -77,22 +72,25 @@
 }
 
 .teamBox {
-  box-sizing: border-box;
   -moz-box-sizing: border-box;
+        box-sizing: border-box;
   padding: 2em;
   display: block;
   width: 32%;
   height: 200px;
   float: left;
-  /*margin: -1px 0 0 -1px;*/
   margin-right: 17px;
   margin-bottom: 17px;
-  background: linear-gradient( white, white 50%, #c40b15 50%, #c40b15);
+  background: -webkit-linear-gradient(white 50%, white, #c40b15 50%, #c40b15);
+  background: linear-gradient(white 50%, white, #c40b15 50%, #c40b15);
   background-size: 100% 202%;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
    -webkit-transform: translateZ(0);
    transform: translateZ(0);
-  transition: all 0.2s ease;
+  
+   -webkit-transition: all 0.2s ease;
+           transition: all 0.2s ease;
+ 
   animation: down-bump 0.4s ease;
   -webkit-animation: down-bump 0.4s ease;
 }
@@ -127,9 +125,9 @@
 .teamBox:hover {
   background-position: 100% 100%;
    -webkit-transform: translateZ(0);
-   transform: translateZ(0);
-  animation: up-bump 0.4s ease;
-  -webkit-animation: up-bump 0.4s ease;
+           transform: translateZ(0);
+   -webkit-animation: up-bump 0.4s ease; 
+          animation: up-bump 0.4s ease;
 }
 
 .teamBox:hover h2 {
