@@ -87,9 +87,7 @@
   /*margin: -1px 0 0 -1px;*/
   margin-right: 17px;
   margin-bottom: 17px;
-  background: linear-gradient(
-     white, white 50%, #c40b15 50%, #c40b15
-  );
+  background: linear-gradient( white, white 50%, #c40b15 50%, #c40b15);
   background-size: 100% 202%;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
    -webkit-transform: translateZ(0);

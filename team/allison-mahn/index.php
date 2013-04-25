@@ -84,7 +84,7 @@
 				<p>Click to read Cody's bio...</p>
 			</a>
 
-			<a href="/isrcapital.com/team/brian-jackson/" class="teamBox" title="click for more...">
+			<a href="/team/brian-jackson/" class="teamBox" title="click for more...">
 				<h2><span>Brian Jackson</span><br>Project Engineering Manager</h2>
 				<p>Click to read Brian's bio...</p>
 			</a>
