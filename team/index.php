@@ -2,8 +2,8 @@
 <?php include "../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/china-group-photo.jpg" alt="ISRCapital Team Photo in front of our office.">
-			<img src="../images/header/china-group-photo.jpg" alt="ISRCapital Team Photo in front of our office.">
+			<img src="../images/header/china-group-photo.jpg" alt="Group photo at the governor's trade mission.">
+			<img src="../images/header/china-group-photo.jpg" alt="Group photo at the governor's trade mission.">
 		</div>
 	</div>
 
@@ -29,6 +29,11 @@
 			<a href="/team/debra-riddle/" class="teamBox" title="click for more...">
 				<h2><span>Debra Riddle</span><br> Chief Financial Officer</h2>
 				<p>Click to read Debra's bio...</p>
+			</a>
+
+			<a href="/team/fred-payne/" class="teamBox" title="click for more...">
+				<h2><span>Fred Payne</span><br>Chief Accounting Officer, CPA</h2>
+				<p>Click to read Fred's bio...</p>
 			</a>
 
 			<a href="/team/ryan-mcdermott/" class="teamBox" title="click for more...">
@@ -59,11 +64,6 @@
 			<a href="/team/kayte-grigsby/" class="teamBox" title="click for more...">
 				<h2><span>Kayte Grigsby</span><br>Project Manager</h2>
 				<p>Click to read Kayte's bio...</p>
-			</a>
-
-			<a href="/team/allison-mahn/" class="teamBox" title="click for more...">
-				<h2><span>Allison Mahn</span><br>Accounts Payable & Assistant to the CFO</h2>
-				<p>Click to read Allison's bio...</p>
 			</a>
 
 			<a href="/team/cody-evans/" class="teamBox" title="click for more...">

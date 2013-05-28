@@ -1,4 +1,4 @@
-<?php $title = "Kirk Williams"; ?>
+<?php $title = "Fred Payne"; ?>
 <?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
@@ -16,13 +16,13 @@
 
 		<div class="teamModule">
 			<div class="teamTitles">
-				<h3 class="name">W. Kirk Williams</h3>
-				<h4 class="title">Corporate Counsel / Holdings Manager</h4>
+				<h3 class="name">Fred Payne</h3>
+				<h4 class="title">Chief Accounting Officer, CPA</h4>
 			</div>
 
 			<div class="teamContent">
 				<p>
-					W. Kirk Williams joined ISR Capital in June, 2012. He is a licensed member of the Idaho, Nevada, California, Wyoming and Colorado State Bars and holds a CPL designation. His legal practice before joining ISR Capital emphasized land-related and transactional issues for the natural resources industries. Kirk has three decades of legal and practical experience in structuring mining joint venture agreements, complex acquisitions and divestments domestically and internationally; determining title in mining districts and petroleum basins; conducting public lands practice for locatable, leasable, and common variety minerals; negotiating and drafting leases and options for the mining and petroleum industries. His recent employment prior to joining ISR Capital included Baird Hanson Williams LLP, as a name partner based in Boise, and BHP (now BHP Billiton) based in San Francisco, as Senior Counsel. Kirk holds a Juris Doctor degree from the University of Wyoming and a Bachelor of Science degree in Geology from the University of Wisconsin-Madison.
+					Mr. Payne is a CPA serving in Public Accounting for the past 19 years.  His work includes SEC clients as well as large cap and mid cap interests in industrial, service and technology markets, most of which have broad multi-state and international operations.  He is active in financial reporting, auditing, and tax supported by a M.S. in Taxation, experience in business valuation along with tax dispute resolution.  Fred brings unusual breadth and scope of experience combined with commitment to detail, sustainability, and passion for innovation.  He enjoys dealing with statutory and regulatory regimes as well as negotiating tax incentives with political jurisdictions.
 				</p>
 			</div>
 		</div><?php //end module ?>
@@ -44,7 +44,7 @@
 				<p>Click to read Debra's bio...</p>
 			</a>
 
-			<a href="/team/fred-payne/" class="teamBox" title="click for more...">
+			<a href="/team/fred-payne/" class="teamBox teamBox-active" title="click for more...">
 				<h2><span>Fred Payne</span><br>Chief Accounting Officer, CPA</h2>
 				<p>Click to read Fred's bio...</p>
 			</a>
@@ -54,7 +54,7 @@
 				<p>Click to read Ryan's bio...</p>
 			</a>
 
-			<a href="/team/kirk-williams/" class="teamBox teamBox-active" title="click for more...">
+			<a href="/team/kirk-williams/" class="teamBox" title="click for more...">
 				<h2><span>W. Kirk Williams</span><br>Corporate Counsel / Holdings Manager</h2>
 				<p>Click to read Kirks's bio...</p>
 			</a>

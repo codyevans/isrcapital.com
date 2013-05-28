@@ -44,6 +44,11 @@
 				<p>Click to read Debra's bio...</p>
 			</a>
 
+			<a href="/team/fred-payne/" class="teamBox" title="click for more...">
+				<h2><span>Fred Payne</span><br>Chief Accounting Officer, CPA</h2>
+				<p>Click to read Fred's bio...</p>
+			</a>
+
 			<a href="/team/ryan-mcdermott/" class="teamBox" title="click for more...">
 				<h2><span>Ryan McDermott</span><br>Vice President & Senior Geologist</h2>
 				<p>Click to read Ryan's bio...</p>
@@ -72,11 +77,6 @@
 			<a href="/team/kayte-grigsby/" class="teamBox" title="click for more...">
 				<h2><span>Kayte Grigsby</span><br>Project Manager</h2>
 				<p>Click to read Kayte's bio...</p>
-			</a>
-
-			<a href="/team/allison-mahn/" class="teamBox" title="click for more...">
-				<h2><span>Allison Mahn</span><br>Accounts Payable & Assistant to the CFO</h2>
-				<p>Click to read Allison's bio...</p>
 			</a>
 
 			<a href="/team/cody-evans/" class="teamBox teamBox-active" title="click for more...">
