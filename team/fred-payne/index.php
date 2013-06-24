@@ -22,7 +22,14 @@
 
 			<div class="teamContent">
 				<p>
-					Mr. Payne is a CPA serving in Public Accounting for the past 19 years.  His work includes SEC clients as well as large cap and mid cap interests in industrial, service and technology markets, most of which have broad multi-state and international operations.  He is active in financial reporting, auditing, and tax supported by a M.S. in Taxation, experience in business valuation along with tax dispute resolution.  Fred brings unusual breadth and scope of experience combined with commitment to detail, sustainability, and passion for innovation.  He enjoys dealing with statutory and regulatory regimes as well as negotiating tax incentives with political jurisdictions.
+					Mr. Payne is a CPA serving in Public Accounting for the past 19 years.  
+					His work includes SEC clients as well as large cap and mid cap interests 
+					in industrial, service and technology markets, most of which have broad 
+					multi-state and international operations.  He is active in financial 
+					reporting, auditing, and tax supported by a M.S. in Taxation, experience 
+					in business valuation along with tax dispute resolution.  Fred brings unusual 
+					breadth and scope of experience combined with commitment to detail, 
+					sustainability, and passion for innovation.
 				</p>
 			</div>
 		</div><?php //end module ?>
