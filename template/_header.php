@@ -17,9 +17,9 @@
 		<meta name="robots" content="follow">
 	
 	<!--stylesheets-->
-	<link rel="stylesheet" type="text/css" media="screen" href="/isrcapital.com/css/Maincss.css">
-	<link rel="stylesheet" type="text/css" href="/isrcapital.com/css/rwd.css">
-	<link rel="stylesheet" type="text/css" href="/isrcapital.com/css/bio.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/Maincss.css">
+	<link rel="stylesheet" type="text/css" href="/css/rwd.css">
+	<link rel="stylesheet" type="text/css" href="/css/bio.css">
 	
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>

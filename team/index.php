@@ -52,7 +52,7 @@
 			</a>
 
 			<a href="/team/tina-smith/" class="teamBox" title="click for more...">
-				<h2><span>Tina J. Smith</span><br>Controller</h2>
+				<h2><span>Tina J. Smith</span><br>Director of Administration</h2>
 				<p>Click to read Tina's bio...</p>
 			</a>
 

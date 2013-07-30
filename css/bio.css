@@ -114,10 +114,15 @@
   background: #E7E7E7;
   box-shadow: none;
   border: 1px solid #D4D4D4;
+  cursor: default;
 }
 
 .teamBox-active h2 span {
   color: #8D8D8D;
+}
+
+.teamBox-active p {
+  display: none;
 }
 
 /* Hover Animation =============================================================== */
