@@ -18,6 +18,10 @@ RewriteRule ^_contacterror.php$ /contact-error/ [R=301]
 RewriteRule ^_legalDisclosure.php$ /legal-disclosure/ [R=301]
 RewriteRule ^_privacyPolicy.php$ /privacy-policy/ [R=301]
 
+# Temporarily redirect Bruce to 404 - 7-31-13
+
+RewriteRule ^team/bruce-thorndycraft/$ /404.html [R=301]
+
 
 
 # ----------------------------------------------------------------------
