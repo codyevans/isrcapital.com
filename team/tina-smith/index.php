@@ -1,6 +1,6 @@
 <?php
 	$title = "Tina Smith";
-	$bioId = "tina-smith"; 
+	$page = "tina-smith"; 
 ?>
 <?php include "../../template/_header.php"; ?>
 
