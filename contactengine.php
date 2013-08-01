@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 $formcontent=" From: $name \n Email: $email \n Subject: $subject \n Message: $message";
-$recipient = "sima@isrcapital.com, debra@isrcapital.com, sarah@isrcapital.com, yuan@isrcapital.com, kayte@isrcapital.com";
+$recipient = "sima@isrcapital.com, debra@isrcapital.com, sarah@isrcapital.com, kayte@isrcapital.com";
 $subject = "ISRCapital Contact Form Submission";
 $mailheader = "From: $email \r\n";
 
