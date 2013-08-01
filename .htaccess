@@ -18,6 +18,7 @@ RewriteRule ^_contacterror.php$ /contact-error/ [R=301]
 RewriteRule ^_legalDisclosure.php$ /legal-disclosure/ [R=301]
 RewriteRule ^_privacyPolicy.php$ /privacy-policy/ [R=301]
 
+
 # Temporarily redirect Bruce to 404 - 7-31-13
 
 RewriteRule ^team/bruce-thorndycraft/$ /404.html [R=301]
@@ -80,4 +81,4 @@ RewriteRule ^team/bruce-thorndycraft/$ /404.html [R=301]
 # You can add custom pages to handle 500 or 403 pretty easily, if you like.
 # If you are hosting your site in subdirectory, adjust this accordingly
 #    e.g. ErrorDocument 404 /subdir/404.html
-ErrorDocument 404 /isrcapital.com/404.html
+ErrorDocument 404 /404.html
