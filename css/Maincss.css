@@ -41,22 +41,22 @@ body {
 }
 
 *::selection {
-	background: red;
+	background: #C50000;
 	color:#fff;
 }
 
 *::-moz-selection {
-	background: red;
+	background: #C50000;
 	color:#fff;
 }
 
 *::-webkit-selection {
-	background: red;
+	background: #C50000;
 	color:#fff;
 }
 
 *::-O-selection {
-	background: red;
+	background: #C50000;
 	color:#fff;
 }
 	

@@ -19,6 +19,17 @@
 	<!--stylesheets-->
 	<link rel="stylesheet" type="text/css" media="screen" href="css/MainStyles.min.css">
 	<link rel="stylesheet" type="text/css" href="css/rwd.css">
+	<style type="text/css">
+		*::selection {
+			background: #C50000;
+			color:#fff;
+		}
+
+		*::-moz-selection {
+			background: #C50000;
+			color:#fff;
+		}
+	</style>
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
