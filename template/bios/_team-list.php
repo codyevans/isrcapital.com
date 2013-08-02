@@ -60,12 +60,15 @@
 		<p>Click to read Brian's bio...</p>
 	</a>
 
-	<!-- Temporarily Remove Bruce 7-31-13 -->
-		
-	<!-- <a href="/team/bruce-thorndycraft/" class="teamBox" id="bruce" title="click for more...">
+	<?php  //Temporarily Remove Bruce 7-31-13  ?>
+	<?php /* 
+
+	<a href="/team/bruce-thorndycraft/" class="teamBox" id="bruce" title="click for more...">
 		<h2><span>Bruce Thorndycraft</span><br>Metallurgical Engineer</h2>
 		<p>Click to read Bruce's bio...</p>
-	</a> -->
+	</a>
+	
+	*/ ?>
 
 	<a href="/team/jessica-ader/" class="teamBox" id="jessica" title="click for more...">
 		<h2><span>Jessica Ader</span><br>Geologist / GIS Specialist</h2>
