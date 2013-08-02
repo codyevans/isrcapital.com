@@ -1,6 +1,8 @@
-<?php $title = "Our Team"; ?>
-<?php include "../template/_header.php"; ?>
-
+<?php 
+	$title = "Our Team"; 
+	include "../template/_header.php";
+	include "../includes/employees.php"; 
+?>
 <div class="herowidth">
 			<img src="../images/header/china-group-photo.jpg" alt="Group photo at the governor's trade mission.">
 			<img src="../images/header/china-group-photo.jpg" alt="Group photo at the governor's trade mission.">

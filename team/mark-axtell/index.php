@@ -1,8 +1,9 @@
 <?php 
 	$title = "Mark Axtell";
 	$page = "mark-axtell"; 
+	include "../../template/_header.php";
+	include "../../includes/employees.php"; 
 ?>
-<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
 			<img src="../../images/header/hero3.jpg" alt="ISRCapital Team Photo in front of our office.">
@@ -19,7 +20,7 @@
 
 		<div class="teamModule">
 			<div class="teamTitles">
-				<h3 class="name">Mark E Axtell</h3>
+				<h3 class="name">Mark E. Axtell</h3>
 				<h4 class="title">Senior Vice President, Acquisitions and Investment Banking</h4>
 			</div>
 

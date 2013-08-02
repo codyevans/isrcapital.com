@@ -2,7 +2,10 @@
 	$title = "Brian Jackson";
 	$page = "brian-jackson"; 
 ?>
-<?php include "../../template/_header.php"; ?>
+<?php 
+	include "../../template/_header.php";
+	include "../../includes/employees.php";
+?>
 
 <div class="herowidth">
 			<img src="../../images/header/hero3.jpg" alt="ISRCapital Team Photo in front of our office.">
