@@ -1,10 +1,11 @@
 <?php 
 	$title = "Raymond Ku";
 	$page = "raymond-ku";
+	include "../../template/_header.php";
+	include "../../includes/employees.php";
 ?>
-<?php include "../../template/_header.php"; ?>
 
-<div class="herowidth">
+		<div class="herowidth">
 			<img src="../../images/header/hero-raymond.jpg" alt="ISRCapital Team Photo in front of our office.">
 			<img src="../../images/header/hero-raymond.jpg" alt="ISRCapital Team Photo in front of our office.">
 		</div>

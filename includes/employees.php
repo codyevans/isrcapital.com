@@ -30,7 +30,7 @@ $employees[] = array(
 	"firstName" => "Fred",
 	"lastName" => "Payne",
 	"fullName" => "Fred Payne",
-	"title" => "Chief Accounting Officer",
+	"title" => "Chief Accounting Officer, CPA",
 	"url" => "/team/fred-payne/"
 );
 

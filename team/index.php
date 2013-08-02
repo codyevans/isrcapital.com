@@ -3,7 +3,8 @@
 	include "../template/_header.php";
 	include "../includes/employees.php"; 
 ?>
-<div class="herowidth">
+
+		<div class="herowidth">
 			<img src="../images/header/china-group-photo.jpg" alt="Group photo at the governor's trade mission.">
 			<img src="../images/header/china-group-photo.jpg" alt="Group photo at the governor's trade mission.">
 		</div>
