@@ -1,0 +1,45 @@
+.wufoo .info h2 {
+	display: none;
+}
+
+#container, html.embed {
+	background-color: rgba(0,0,0,0);
+}
+
+.wufoo .info, .wufoo .paging-context {
+	border-bottom: 2px dotted #CCC;
+}
+
+.wufoo .submit {
+	background-color: #C50000;
+	border: none;
+	padding: 0.6em 1.25em 0.5em;
+	margin-left: 0.45em!important;
+	color: #FFF;
+	font-size: 1.25em!important;
+	cursor: pointer;
+	-webkit-transition: background-color 140ms ease;
+	-moz-transition: background-color 140ms ease;
+	-o-transition: background-color 140ms ease;
+	-ms-transition: background-color 140ms ease;
+	transition: background-color 140ms ease;
+	-webkit-appearance: none;
+	border-radius: 3px;
+}
+
+.wufoo .submit:hover {
+	background-color: #A30000;
+}
+
+
+/* === selection ======================================================== */
+
+::selection {
+	background: #C50000;
+	color: #FFF;
+}
+
+::-moz-selection {
+	background: #C50000;
+	color:#fff;
+}
