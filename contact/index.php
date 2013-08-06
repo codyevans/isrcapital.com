@@ -23,37 +23,26 @@
 			</address>
 			
 			<br>
-			
-			<div id="formPlace">
-			<form action="../contactengine.php" method="POST" id="commentForm" accept-charset="utf-8">
-					
-			<p>
-			<label for="name">Name *</label>
-			<input type="text" id="name" name="name" class="required text" minlength="2">
-			</p>
-			
-			<p>
-			<label for="email">Email *</label>
-			<input type="text" id="email" name="email" class="required email text">
-			</p>
-		
-			<p>
-			<select id="subject" name="subject">
-				<option value="services">Our Services</option>
-				<option value="intake form">Intake Form</option>
-			</select>
-			</p>
-			
-			<p>
-			<label for="message">Your message...</label>
-			<textarea name="message" id="message" class="required" rows="15" cols="70"></textarea>
-			</p>
-			
-			<p><input type="submit"  name="submit" value="Submit"></p>
-			
-		</form>
-		</div>
 
+			<div id="contactForm">
+				<div id="wufoo-z7x4m1">
+				Fill out my <a href="http://isrcapital.wufoo.com/forms/z7x4m1">online form</a>.
+				</div>
+				<script type="text/javascript">var z7x4m1;(function(d, t) {
+				var s = d.createElement(t), options = {
+				'userName':'isrcapital', 
+				'formHash':'z7x4m1', 
+				'autoResize':true,
+				'height':'577',
+				'async':true,
+				'header':'show'};
+				s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+				s.onload = s.onreadystatechange = function() {
+				var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+				try { z7x4m1 = new WufooForm();z7x4m1.initialize(options);z7x4m1.display(); } catch (e) {}};
+				var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+				})(document, 'script');</script>
+			</div> <!-- /form -->
 			
 		</div>
 	</div>
