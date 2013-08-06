@@ -115,7 +115,7 @@ $employees[] = array(
 	"lastName" => "Ader",
 	"fullName" => "Jessica Ader",
 	"title" => "Geologist / GIS Specialist",
-	"url" => "/team/Jessica-ader/"
+	"url" => "/team/jessica-ader/"
 );
 
 $employees[] = array(
