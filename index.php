@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 	
-	<title>ISRCapital</title>
+	<title>ISRCapital | Terms and Conditions</title>
 	
 	<link rel="shortcut icon" href="#.ico" />
     <link rel="icon" type="image/png" href="#.png" />
