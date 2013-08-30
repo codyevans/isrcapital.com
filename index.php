@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 
@@ -295,11 +294,8 @@
 		</div>
 	</footer>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
-	<script src="js/jquery.infieldlabel.min.js" type="text/javascript" charset="utf-8"></script>
-
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript">
-
 		$('div.inner li a, div#subnav li a, div#legal li a').click(function(e) {
 
 			alert("Please Agree to the terms and conditions");
@@ -307,8 +303,6 @@
 			e.preventDefault();
 
 		});
-
-
 	</script>
 </body>
 </html>
