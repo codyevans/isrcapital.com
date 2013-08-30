@@ -214,75 +214,8 @@
 
 
                  <img class="lazy" src="../gallery/placeholder/grey.png" data-original="../gallery/photo100.jpg"  width="1000" height="">
-
-
-                
-
                 
 		</div>
 	</div>
 
-
-<!--footer-->
-	<div class="container">
-		<div id="logoborder">
-			<div id="footerLogo">
-			</div>
-		</div>
-	</div>
-	
-	<div id="sublabel">
-		<div class="container">
-			<form>
-				<input class="search" type="text" value="_search">
-			</form>
-			<div id="subnav" class="list">
-				<ul>
-					<li><a href="/isrcapital.com/home/">Home</a></li>
-					<li><a href="/isrcapital.com/contact/">Contact</a></li>
-					<li><a href="http://isrcapital.wordpress.com" target="blank">Blog</a></li>
-					<li><a href="#">Log in</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<footer>
-		<div class="container">
-			<div id="legal">
-				<ul>
-					<li>©2012 ISRCapital</li>
-					<li>.....</li>
-					<li><a href="/isrcapital.com/legalDisclosure/">Legal Disclosures</a></li>
-					<li>.....</li>
-					<li><a href="/isrcapital.com/privacyPolicy/">Privacy Policy</a></li>
-				</ul>
-			</div>
-		</div>
-	</footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
-    <script src="../js/jquery.lazyload.js" type="text/javascript"></script>
-    <script type="text/javascript">
-       $("img.lazy").lazyload({ 
-            effect : "fadeIn"
-        });
-    </script>
-
-	<script src="../js/jquery.infieldlabel.min.js" type="text/javascript" charset="utf-8"></script>
-	
-	<script type="text/javascript" charset="utf-8">
-		$(function(){ $("label").inFieldLabels(); });
-	</script>
-	
-	
-	<script src="../js/jquery.validate.js" type="text/javascript"></script>
-
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$("#commentForm").validate();
-	});
-	</script>
-
-</body>
-</html>
+<?php include "../template/_footer.php"; ?>

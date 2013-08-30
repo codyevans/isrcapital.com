@@ -1,15 +1,5 @@
 
-// run plugins
-
-$(function(){ $("label").inFieldLabels(); });
-
-$(document).ready(function() {
-	$("#commentForm").validate();
-});
-
-
 // bios - team list functions
-
 $('body#tina-smith #Tina').addClass('teamBox-active');
 $('body#brian-jackson #Brian').addClass('teamBox-active');
 $('body#bruce-thorndycraft #Bruce').addClass('teamBox-active');
@@ -28,4 +18,7 @@ $('body#sarah-jin #Sarah').addClass('teamBox-active');
 $('body#sima-muroff #Sima').addClass('teamBox-active');
 
 
-
+// lazy load images
+ $("img.lazy").lazyload({ 
+    effect : "fadeIn"
+});
