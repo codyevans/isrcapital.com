@@ -50,6 +50,9 @@ $employees[] = array(
 	"url" => "/team/kirk-williams/"
 );
 
+// Remove Mark Axtell
+
+/*
 $employees[] = array(
 	"firstName" => "Mark",
 	"lastName" => "Axtell",
@@ -57,6 +60,7 @@ $employees[] = array(
 	"title" => "Senior VP, Acquisitions and Investment Banking",
 	"url" => "/team/mark-axtell/"
 );
+*/
 
 $employees[] = array(
 	"firstName" => "Tina",

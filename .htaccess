@@ -20,8 +20,10 @@ RewriteRule ^_privacyPolicy.php$ /privacy-policy/ [R=301]
 
 
 # Temporarily redirect Bruce to 404 - 7-31-13
-
 RewriteRule ^team/bruce-thorndycraft/$ /404.html [R=301]
+
+# Remove Mark Axtell
+RewriteRule ^team/mark-axtell/$ /404.html [R=301]
 
 
 
