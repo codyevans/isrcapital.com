@@ -26,6 +26,9 @@ $employees[] = array(
 	"url" => "/team/debra-riddle/"
 );
 
+// Remove Fred Payne
+
+/*
 $employees[] = array(
 	"firstName" => "Fred",
 	"lastName" => "Payne",
@@ -33,6 +36,7 @@ $employees[] = array(
 	"title" => "Chief Accounting Officer, CPA",
 	"url" => "/team/fred-payne/"
 );
+*/
 
 $employees[] = array(
 	"firstName" => "Ryan",
@@ -50,9 +54,6 @@ $employees[] = array(
 	"url" => "/team/kirk-williams/"
 );
 
-// Remove Mark Axtell
-
-/*
 $employees[] = array(
 	"firstName" => "Mark",
 	"lastName" => "Axtell",
@@ -60,7 +61,6 @@ $employees[] = array(
 	"title" => "Senior VP, Acquisitions and Investment Banking",
 	"url" => "/team/mark-axtell/"
 );
-*/
 
 $employees[] = array(
 	"firstName" => "Tina",
