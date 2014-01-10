@@ -1,4 +1,4 @@
-<?php $title = "Contact Us"; ?>
+<?php $title = "Careers"; ?>
 <?php include "../template/_header.php"; ?>
 
 <div class="herowidth">
@@ -10,7 +10,7 @@
 <!--body content-->
 	<div class="container">
 		<div class="mission">
-			<h2>Contact Us</h2>
+			<h2>Join our Team</h2>
 			
 			<div class="group">
 				<section class="contact-info">
@@ -29,8 +29,8 @@
 				</section>
 
 				<section class="employment-section-link">
-					<h3>Seeking Employment?</h3>
-					<a href="/careers/">Employment Inquires <span>&rarr;</span></a>
+					<h3>Trying to reach us?</h3>
+					<a href="/contact/">Contact us here <span>&rarr;</span></a>
 				</section>
 			</div>
 			
