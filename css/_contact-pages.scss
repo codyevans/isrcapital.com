@@ -1,0 +1,46 @@
+
+address p {
+	line-height: 1.4em;
+	margin-left: 20px;
+}
+
+.contact-phone-number {
+	margin: 0 0 0 20px;
+}
+
+.contact-info {
+	float: left;
+	@media(max-width: 480px) {
+		float: none;
+	}
+}
+
+.employment-section-link {
+	float: right;
+	margin-right: 20px;
+	@media(max-width: 480px) {
+		float: none;
+		margin: 0 0 0 20px;
+	}
+
+	h3 {
+		margin: 25px 0 5px 0px;
+	}
+	a {
+		color: #C50000;
+		text-decoration: none;
+		transition: 0.2s ease;
+		&:hover, &:focus {
+			span {
+				margin-left: 5px;
+				color: #C50000;
+			}
+		}
+
+		span {
+			display: inline-block;
+			color: #8D8D8D;
+			transition: 0.2s ease;
+		}
+	}
+}

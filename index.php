@@ -16,8 +16,7 @@
 		<meta name="robots" content="follow">
 	
 	<!--stylesheets-->
-	<link rel="stylesheet" type="text/css" media="screen" href="css/MainStyles.min.css">
-	<link rel="stylesheet" type="text/css" href="css/rwd.css">
+	<link rel="stylesheet" href="css/build/terms.css">
 	<style type="text/css">
 		*::selection {
 			background: #C50000;
@@ -87,7 +86,7 @@
 
     <script src="js/alert.js"></script>
 </head>
-<body>
+<body id="terms-page">
 
 <!--top navigation-->
 	<header>
@@ -298,7 +297,7 @@
 	<script type="text/javascript">
 		$('div.inner li a, div#subnav li a, div#legal li a').click(function(e) {
 
-			alert("Please Agree to the terms and conditions");
+			alert("Please Agree to the terms and conditions below");
 
 			e.preventDefault();
 

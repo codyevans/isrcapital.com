@@ -59,7 +59,30 @@ body {
 	background: #C50000;
 	color:#fff;
 }
-	
+
+h3.portfolio-link-heading { // adjusts margin bottom on portfolio headings followed by links
+	margin-bottom: 3px
+}
+
+a.body-link {
+		color: #C50000;
+		text-decoration: none;
+		margin: 0 0 0 20px;
+		transition: 0.2s ease;
+		&:hover, &:focus {
+			span {
+				margin-left: 5px;
+				color: #C50000;
+			}
+		}
+
+		span {
+			display: inline-block;
+			color: #8D8D8D;
+			transition: 0.2s ease;
+		}
+	}
+
 
 /********************************
 Top Navigation
@@ -74,6 +97,10 @@ header {
 	z-index: 100;
 	border-bottom: 1px solid #DBDBDB;
 	box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+	
+	#terms-page & {
+		position: static;
+	}
 }
 
 .inner {
@@ -714,104 +741,6 @@ footer logo
 	margin-top: 25px;
 	padding-top: 10px;
 
-}
-
-
-/********************************
-Contact
-********************************/
-
-address p {
-	line-height: 1.4em;
-	margin-left: 20px;
-}
-
-#formPlace {
-	margin-left: 20px;
-}
-
-form p { 
-	position:relative;
-	color: #000;
-	font-size: 0.85em;
-}
-
-label  { position:absolute; top:6px; left:15px}
-
-
-input.text {
-	padding-left: 10px;
-	width: 290px;
-	height: 25px;
-	outline: none;
-	border-radius: 6px;
-	border: none;
-	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.7);	
-	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.7);	
-	-webkit-transition: background-color 0.5s;
-	-moz-transition: background-color 0.5s;
-	-o-transition: background-color 0.5s;
-}
-
-input.text:hover {
-	background-color: #D6111B;;
-	color: white;
-}
-
-input.text:focus {
-	background-color: #D6111B;;
-	color: white;
-}
-
-textarea {
-	outline: none;
-	padding: 10px;
-	padding-top: 6px;
-	border-radius: 6px;
-	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.7);	
-	border: none;
-	-webkit-transition: background-color, 0.5s;
-	-moz-transition: background-color 0.5s;
-	-o-transition: background-color 0.5s;
-}
-
-textarea:hover {
-	background-color: #D6111B;;
-	color: white;
-}
-
-textarea:focus {
-	background-color: #D6111B;;
-	color: white;
-}
-
-select {
-	width: 300px;
-}
-
-#commentForm label.error[for=message] {
-	margin-left: 525px;
-}
-
-
-#commentForm label.error {
-	margin-left: 300px;
-	color: red;
-}
-
-
-/********************************
-temporary email link
-********************************/
-
-address a:link {
-	text-decoration: none;
-	 color: #D6111B;
-}
-
-address a:hover {
-	text-decoration: underline;
-	 color: #D6111B;
 }
 
 

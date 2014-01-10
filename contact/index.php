@@ -11,16 +11,28 @@
 	<div class="container">
 		<div class="mission">
 			<h2>Contact Us</h2>
-			<h3>ISRCapital</h3>
-				
-			<address>
-			<p>
-			Royal Plaza<br>
-			1112 W. Main Street Suite 101<br>
-			Boise, ID 83702 <br>
-			Phone: 1.800.290.ISRC(4772)<br>
-			</p>
-			</address>
+			
+			<div class="group">
+				<section class="contact-info">
+					<h3>ISRCapital</h3>	
+					<address>
+					<p>
+					Royal Plaza<br>
+					1112 W. Main Street Suite 101<br>
+					Boise, ID 83702 <br>
+					</p>
+					</address>
+
+					<p class="contact-phone-number" tel="1-800-290-4772">
+						<strong>Phone:</strong> 1.800.290.ISRC(4772)
+					</p>
+				</section>
+
+				<section class="employment-section-link">
+					<h3>Seeking Employment?</h3>
+					<a href="/employment/">Employment Inquires <span>&rarr;</span></a>
+				</section>
+			</div>
 			
 			<br>
 

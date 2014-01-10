@@ -1,4 +1,13 @@
 
+// tools
+@import "toolbox";
+
+// main styles
 @import "maincss";
+
+// responsive design styles
 @import "rwd";
+
+// page specific styles
+@import "contact-pages";
 @import "bio";

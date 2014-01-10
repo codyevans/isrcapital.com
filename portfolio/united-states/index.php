@@ -1,9 +1,9 @@
-<?php $title = "Our Portfolio"; ?>
-<?php include "../template/_header.php"; ?>
+<?php $title = "United States Portfolio"; ?>
+<?php include "../../template/_header.php"; ?>
 
 <div class="herowidth">
-			<img src="../images/header/hero5.jpg" alt="Hero Image Five">
-			<img src="../images/header/hero5.jpg" alt="Hero Image Five">
+			<img src="../../images/header/hero5.jpg" alt="Hero Image Five">
+			<img src="../../images/header/hero5.jpg" alt="Hero Image Five">
 		</div>
 	</div>
 
@@ -64,7 +64,8 @@
 				notable gold producers Gold Hill, Belshazzar and Mountain Chief Mines
 				</p>
 				</div>
-			<h3>Gold Hill</h3>
+			<h3 class="portfolio-link-heading">Gold Hill - Reclamation and Mining</h3>
+			<a href="http://goldhillidaho.com" class="body-link">Visit Website <span>&rarr;</span></a>
 			<div class="boxSubMiddle">
 				<p class="initial">
 				Since Gold Hill's discovery in August of 1863, the Gold Hill Mine was the deepest highest
@@ -104,7 +105,8 @@
 				</p>
 			</div>
 			<h3 class="portfolio1">Montana</h3>
-			<h3>Garnet</h3>
+			<h3 class="portfolio-link-heading">Garnet USA, LLC</h3>
+			<a href="http://garnet-usa.com" class="body-link">Visit Website <span>&rarr;</span></a>
 			<div class="boxSub">
 				<p class="ray">
 				The Garnet mine is located in Madison County, Montana. For centuries, garnet was used
@@ -123,4 +125,4 @@
 		</div>
 	</div>
 
-<?php include "../template/_footer.php"; ?>
+<?php include "../../template/_footer.php"; ?>
