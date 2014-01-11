@@ -37,6 +37,6 @@
 	</footer>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="/js/build/production.min.js"></script>
+	<script src="/js/build/production.min.js?ver=2.0"></script>
 </body>
 </html>
