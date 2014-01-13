@@ -16,7 +16,7 @@
 		<meta name="robots" content="follow">
 	
 	<!--stylesheets-->
-	<link rel="stylesheet" href="/css/build/global.css?ver=2.0">
+	<link rel="stylesheet" href="/css/build/global.css?ver=2.1">
 	
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>

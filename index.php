@@ -16,7 +16,7 @@
 		<meta name="robots" content="follow">
 	
 	<!--stylesheets-->
-	<link rel="stylesheet" href="css/build/terms.css">
+	<link rel="stylesheet" href="css/build/terms.css?ver=2.0">
 	<style type="text/css">
 		*::selection {
 			background: #C50000;
