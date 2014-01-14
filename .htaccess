@@ -27,6 +27,11 @@ RewriteRule ^team/bruce-thorndycraft/$ /404.html [R=301]
 # Remove Fred Payne
 RewriteRule ^team/fred-payne/$ /404.html [R=301]
 
+# Maintenance Page Redirect
+#RewriteCond %{REQUEST_URI} !^/maintenance-page\.html$
+#RewriteCond %{REQUEST_URI} !^/images/.*$
+#RewriteRule ^(.*)$ /maintenance-page.html [R=307,L]
+
 
 
 # ----------------------------------------------------------------------
