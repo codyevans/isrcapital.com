@@ -1,75 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
-    <title>Page Not Found :(</title>
+    
+    <title>ISRCapital | Page Not Found</title>
+    
+    <link rel="shortcut icon" href="#.ico" />
+    <link rel="icon" type="image/png" href="#.png" />
+    
+    <!--meta info-->
+        <meta name="description" content="ISRCapital | A Venture Capital Company">
+        <meta name="keywords" content="ISRCapital, ISRC, Sima Muroff, Raymond Ku, Venture Capital">
+        <meta name="author" content="ISRCapital">
+        <meta name="robots" content="follow">
+    
+    <!--stylesheets-->
+    <link rel="stylesheet" href="/css/build/global.css?ver=2.1">
     <style>
-        ::-moz-selection {
-            background: #b3d4fc;
-            text-shadow: none;
-        }
-
-        ::selection {
-            background: #b3d4fc;
-            text-shadow: none;
-        }
-
-        html {
-            padding: 30px 10px;
-            font-size: 20px;
-            line-height: 1.4;
-            color: #737373;
-            background: #f0f0f0;
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-        }
-
-        html,
-        input {
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
-
-        body {
-            max-width: 500px;
-            _width: 500px;
-            padding: 30px 20px 50px;
-            border: 1px solid #b3b3b3;
-            border-radius: 4px;
-            margin: 0 auto;
-            box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-            background: #fcfcfc;
-        }
-
-        h1 {
-            margin: 0 10px;
-            font-size: 50px;
-            text-align: center;
-        }
-
-        h1 span {
-            color: #bbb;
-        }
-
-        h3 {
-            margin: 1.5em 0 0.5em;
-        }
-
-        p {
-            margin: 1em 0;
-        }
-
-        ul {
-            padding: 0 0 0 40px;
-            margin: 1em 0;
-        }
-
-        .container {
-            max-width: 380px;
-            _width: 380px;
-            margin: 0 auto;
-        }
-
-        /* google search */
 
         #goog-fixurl ul {
             list-style: none;
@@ -137,10 +85,56 @@
             padding: 0;
             border: 0;
         }
+
+        #fourOfour-page .container {
+            margin-top: 40px;
+        }
+        .push-down {
+            margin-bottom: 125px;
+        }
     </style>
+    
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <meta name="viewport" content="width=device=width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
 </head>
-<body>
-    <div class="container">
+<body id="fourOfour-page">
+
+<!--top navigation-->
+    <header>
+        <div class="inner">
+        <img src="/images/logo2.jpg" class="NavLogo" alt="ISRCapital Logo">
+            <nav>
+                <ul>
+                    <li><a href="/home/">Home</a></li>
+                    <li><a href="#">Who We Are</a>
+                        <ul class="dropdown" id="who">
+                            <li><a href="/team/">As A Team</a></li>
+                            <li><a href="/company/">As A Company</a></li>
+                            <li><a href="/photos/">Photo Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a>
+                        <ul class="dropdown" id="funding">
+                            <li><a href="/portfolio/united-states/">United States</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/services/">ISR Services</a></li>
+                    <li><a href="#">Contact Us</a>
+                        <ul class="dropdown" id="contact">
+                            <li><a href="/contact/">Contact</a></li>
+                            <li><a href="/careers/">Careers</a></li>
+                            <li><a href="/downloads/Intake_Form.pdf" target="blank">Intake Form</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container push-down">
         <h1>Not found <span>:(</span></h1>
         <p>Sorry, but the page you were trying to view does not exist.</p>
         <p>It looks like this was the result of either:</p>
@@ -153,5 +147,47 @@
         </script>
         <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
     </div>
+
+
+<!--footer-->
+    <div class="container">
+        <div id="logoborder">
+            <div id="footerLogo">
+            </div>
+        </div>
+    </div>
+    
+    <div id="sublabel">
+        <div class="container">
+            <form>
+                <input class="search" type="text" value="_search">
+            </form>
+            <div id="subnav" class="list">
+                <ul>
+                    <li><a href="/home/">Home</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                    <li><a href="http://isrcapital.wordpress.com">Blog</a></li>
+                    <li><a href="http://isrcapital.sharefile.com">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div id="legal">
+                <ul>
+                    <li>©<?php echo date('Y'); ?> ISRCapital</li>
+                    <li>.....</li>
+                    <li><a href="/legal-disclosure/">Legal Disclosures</a></li>
+                    <li>.....</li>
+                    <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/build/production.min.js?ver=2.0"></script>
 </body>
 </html>

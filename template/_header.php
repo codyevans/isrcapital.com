@@ -34,20 +34,20 @@
 			<nav>
 				<ul>
 					<li><a href="/home/">Home</a></li>
-					<li><a href="#">Who We Are</a>
+					<li><a href="#0">Who We Are</a>
 						<ul class="dropdown" id="who">
 							<li><a href="/team/">As A Team</a></li>
 							<li><a href="/company/">As A Company</a></li>
 							<li><a href="/photos/">Photo Gallery</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Portfolio</a>
+					<li><a href="#1">Portfolio</a>
 						<ul class="dropdown" id="funding">
 							<li><a href="/portfolio/united-states/">United States</a></li>
 						</ul>
 					</li>
 					<li><a href="/services/">ISR Services</a></li>
-					<li><a href="#">Contact Us</a>
+					<li><a href="#2">Contact Us</a>
 						<ul class="dropdown" id="contact">
 							<li><a href="/contact/">Contact</a></li>
 							<li><a href="/careers/">Careers</a></li>
