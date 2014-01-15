@@ -54,6 +54,9 @@ $employees[] = array(
 	"url" => "/team/kirk-williams/"
 );
 
+// Remove Mark Axtell
+
+/*
 $employees[] = array(
 	"firstName" => "Mark",
 	"lastName" => "Axtell",
@@ -61,6 +64,7 @@ $employees[] = array(
 	"title" => "Senior VP, Acquisitions and Investment Banking",
 	"url" => "/team/mark-axtell/"
 );
+*/
 
 $employees[] = array(
 	"firstName" => "Tina",
@@ -102,7 +106,7 @@ $employees[] = array(
 	"url" => "/team/brian-jackson/"
 );
 
-// temp remove bruce
+// Temp Remove Bruce
 
 /*
 $employees[] = array(
@@ -130,6 +134,9 @@ $employees[] = array(
 	"url" => "/team/sanja-bell/"
 );
 
+// Remove Sarah Jin
+
+/*
 $employees[] = array(
 	"firstName" => "Sarah",
 	"lastName" => "Jin",
@@ -137,6 +144,5 @@ $employees[] = array(
 	"title" => "Marketing Assistant",
 	"url" => "/team/sarah-jin/"
 );
-
-
+*/
 

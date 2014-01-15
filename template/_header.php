@@ -51,7 +51,7 @@
 						<ul class="dropdown" id="contact">
 							<li><a href="/contact/">Contact</a></li>
 							<li><a href="/careers/">Careers</a></li>
-							<li><a href="/downloads/Intake_Form.pdf" target="blank">Intake Form</a></li>
+							<li><a href="/downloads/Intake_Form.pdf">Intake Form</a></li>
 						</ul>
 					</li>
 				</ul>
