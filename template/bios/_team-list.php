@@ -2,9 +2,9 @@
 
 <?php foreach ($employees as $employee) { ?>
 	
-	<a href="<?php echo $employee["url"]; ?>" class="teamBox" id="<?php echo $employee["firstName"]; ?>" title="click for more...">
+	<a href="<?php echo $employee["url"]; ?>" class="teamBox" id="<?php echo $employee["firstName"]; ?>" title="click for employee bio">
 		<h2><span><?php echo $employee["fullName"]; ?></span><br><?php echo $employee["title"]; ?></h2>
-		<p>Click to read <?php echo $employee["firstName"]; ?>'s bio...</p>
+		<p>Read <?php echo $employee["firstName"]; ?>'s bio &rarr;</p>
 	</a>
 
 <?php } ?>
