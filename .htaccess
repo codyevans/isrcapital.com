@@ -33,6 +33,12 @@ RewriteRule ^team/mark-axtell/$ /404.html [R=301]
 # Remove Sarah Jin
 RewriteRule ^team/sarah-jin/$ /404.html [R=301]
 
+# Remove Ryan McDermott
+RewriteRule ^team/ryan-mcdermott/$ /404.html [R=301]
+
+# Remove Kirk Williams
+RewriteRule ^team/kirk-williams/$ /404.html [R=301]
+
 
 
 # Maintenance Page Redirect

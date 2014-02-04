@@ -38,6 +38,9 @@ $employees[] = array(
 );
 */
 
+// Remove Ryan McDermott
+
+/*
 $employees[] = array(
 	"firstName" => "Ryan",
 	"lastName" => "McDermott",
@@ -45,7 +48,11 @@ $employees[] = array(
 	"title" => "Director of Mining Operations",
 	"url" => "/team/ryan-mcdermott/"
 );
+*/
 
+// Remove Kirk Williams
+
+/*
 $employees[] = array(
 	"firstName" => "Kirk",
 	"lastName" => "Williams",
@@ -53,6 +60,7 @@ $employees[] = array(
 	"title" => "Corporate Counsel / Holdings Manager",
 	"url" => "/team/kirk-williams/"
 );
+*/
 
 // Remove Mark Axtell
 
@@ -106,7 +114,7 @@ $employees[] = array(
 	"url" => "/team/brian-jackson/"
 );
 
-// Temp Remove Bruce
+// Remove Bruce
 
 /*
 $employees[] = array(
