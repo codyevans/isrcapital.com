@@ -8,9 +8,6 @@
 	
 	<div id="sublabel">
 		<div class="container">
-			<form>
-				<input class="search" type="text" value="_search">
-			</form>
 			<div id="subnav" class="list">
 				<ul>
 					<li><a href="/home/">Home</a></li>
@@ -38,5 +35,8 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="/js/build/production.min.js?ver=2.0"></script>
+	<script>
+    	$(document).foundation();
+  	</script>
 </body>
 </html>

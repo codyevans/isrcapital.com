@@ -27,36 +27,44 @@
 </head>
 <body id="<?php echo($page); ?>">
 
-<!--top navigation-->
-	<header>
-		<div class="inner">
-		<img src="/images/logo2.jpg" class="NavLogo" alt="ISRCapital Logo">
-			<nav>
-				<ul>
-					<li><a href="/home/">Home</a></li>
-					<li><a href="#0">Who We Are</a>
-						<ul class="dropdown" id="who">
-							<li><a href="/team/">As A Team</a></li>
-							<li><a href="/company/">As A Company</a></li>
-							<li><a href="/photos/">Photo Gallery</a></li>
-						</ul>
-					</li>
-					<li><a href="#1">Portfolio</a>
-						<ul class="dropdown" id="funding">
-							<li><a href="/portfolio/united-states/">United States</a></li>
-						</ul>
-					</li>
-					<li><a href="/services/">ISR Services</a></li>
-					<li><a href="#2">Contact Us</a>
-						<ul class="dropdown" id="contact">
-							<li><a href="/contact/">Contact</a></li>
-							<li><a href="/careers/">Careers</a></li>
-							<li><a href="/downloads/Intake_Form.pdf">Intake Form</a></li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
-		</div>
+	<header class="fixed">
+		<nav class="top-bar" data-topbar>
+		  <ul class="title-area">
+		    <li class="name">
+		      <h1><a href="/home/">ISRCapital</a></h1>
+		    </li>
+		    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+		  </ul>
+
+		  <section class="top-bar-section">
+		    <ul class="right">
+		      <li><a href="/home/">Home</a></li>
+		      <li class="has-dropdown">
+		        <a href="#">Who we Are</a>
+		        <ul class="dropdown">
+		          <li><a href="/team/">As a Team</a></li>
+		          <li><a href="/company/">As a Company</a></li>
+		          <li><a href="/photos/">Photo Gallery</a></li>
+		        </ul>
+		      </li>
+		      <li class="has-dropdown">
+		        <a href="#">Portfolio</a>
+		        <ul class="dropdown">
+		          <li><a href="/portfolio/united-states/">United States</a></li>
+		        </ul>
+		      </li>
+		      <li><a href="/services">ISR Services</a></li>
+		      <li class="has-dropdown">
+		        <a href="#">Contact Us</a>
+		        <ul class="dropdown">
+		          <li><a href="/contact">Contact</a></li>
+		          <li><a href="/careers">ISR Careers</a></li>
+		          <li><a href="/downloads/Intake_Form.pdf">Intake Form</a></li>
+		        </ul>
+		      </li>
+		    </ul>
+		  </section>
+		</nav>
 	</header>
 	
 <!--header hero images-->
