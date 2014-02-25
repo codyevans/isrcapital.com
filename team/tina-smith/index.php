@@ -21,7 +21,7 @@
 		<div class="teamModule">
 			<div class="teamTitles">
 				<h3 class="name">Tina J. Smith</h3>
-				<h4 class="title">Director of Administration</h4>
+				<h4 class="title">Chief Operating Officer</h4>
 			</div>
 
 			<div class="teamContent">

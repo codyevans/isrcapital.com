@@ -24,9 +24,6 @@ RewriteRule ^portfolio/$ /404.html
 # Temporarily redirect Bruce to 404 - 7-31-13
 RewriteRule ^team/bruce-thorndycraft/$ /404.html [R=301]
 
-# Remove Fred Payne
-RewriteRule ^team/fred-payne/$ /404.html [R=301]
-
 # Remove Mark Axtell
 RewriteRule ^team/mark-axtell/$ /404.html [R=301]
 

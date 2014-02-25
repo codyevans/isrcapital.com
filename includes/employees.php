@@ -19,24 +19,28 @@ $employees[] = array(
 );
 
 $employees[] = array(
-	"firstName" => "Debra",
-	"lastName" => "Riddle",
-	"fullName" => "Debra Riddle",
-	"title" => "Chief Financial Officer",
-	"url" => "/team/debra-riddle/"
+	"firstName" => "Tina",
+	"lastName" => "Smith",
+	"fullName" => "Tina J. Smith",
+	"title" => "Chief Operating Officer",
+	"url" => "/team/tina-smith/"
 );
 
-// Remove Fred Payne
-
-/*
 $employees[] = array(
 	"firstName" => "Fred",
 	"lastName" => "Payne",
 	"fullName" => "Fred Payne",
-	"title" => "Chief Accounting Officer, CPA",
+	"title" => "Chief Financial Officer, CPA",
 	"url" => "/team/fred-payne/"
 );
-*/
+
+$employees[] = array(
+	"firstName" => "Debra",
+	"lastName" => "Riddle",
+	"fullName" => "Debra Riddle",
+	"title" => "CFO Regional Center",
+	"url" => "/team/debra-riddle/"
+);
 
 // Remove Ryan McDermott
 
@@ -73,14 +77,6 @@ $employees[] = array(
 	"url" => "/team/mark-axtell/"
 );
 */
-
-$employees[] = array(
-	"firstName" => "Tina",
-	"lastName" => "Smith",
-	"fullName" => "Tina J. Smith",
-	"title" => "Director of Administration",
-	"url" => "/team/tina-smith/"
-);
 
 $employees[] = array(
 	"firstName" => "Dhwanit",

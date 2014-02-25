@@ -21,7 +21,7 @@
 		<div class="teamModule">
 			<div class="teamTitles">
 				<h3 class="name">Fred Payne</h3>
-				<h4 class="title">Chief Accounting Officer, CPA</h4>
+				<h4 class="title">Chief Financial Officer, CPA</h4>
 			</div>
 
 			<div class="teamContent">

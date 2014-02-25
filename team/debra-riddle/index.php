@@ -21,7 +21,7 @@
 		<div class="teamModule">
 			<div class="teamTitles">
 				<h3 class="name">Debra Riddle</h3>
-				<h4 class="title">Chief Financial Officer</h4>
+				<h4 class="title">CFO Regional Center</h4>
 			</div>
 
 			<div class="teamContent">
