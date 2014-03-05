@@ -135,6 +135,20 @@
           animation: up-bump 0.4s ease;
 }
 
+.teamBox-active {
+   -webkit-animation: none;
+    animation: none;
+  -webkit-transition: none;
+    transition: none;
+}
+
+.teamBox-active:hover {
+   -webkit-animation: none;
+    animation: none;
+  -webkit-transition: none;
+   transition: none;
+}
+
 .teamBox:hover h2 {
   color: #FFF;
 }
