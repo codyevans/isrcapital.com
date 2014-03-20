@@ -1,0 +1,46 @@
+/*
+ Theme Name:   Twenty Twelve Child
+ Theme URI:    http://isrcapital.com/news/
+ Description:  ISRCapital News
+ Author:       ISRCapital
+ Author URI:   http://isrcapital.com
+ Template:     twentytwelve
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-twelve-child
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+// globals
+
+body {
+	background-color: #EEE;
+	background-image: url('/images/bkgdtexture.jpg');
+}
+
+.entry-content a:visited, .comment-content a:visited {
+	color: #21759B;
+}
+
+// header and top nav
+
+@import "../../../../../css/top-navigation";
+
+header#fixed-ISR-header {
+	top: 0px;
+}
+
+body .site {
+	margin-top: 90px;
+
+	@media (max-width: 1040px) {
+		margin-top: 50px;
+		padding-top: 20px;
+	}
+}
+
+

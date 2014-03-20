@@ -28,7 +28,8 @@ module.exports = function(grunt) {
                 },
                 files: {
                     'css/build/global.css': 'css/global.scss',
-                    'css/build/terms.css': 'css/terms.scss'
+                    'css/build/terms.css': 'css/terms.scss',
+                    'news/wp-content/themes/twentytwelve-child/style.css': 'news/wp-content/themes/twentytwelve-child/scss/style.scss'
                 }
             } 
         },
@@ -46,7 +47,7 @@ module.exports = function(grunt) {
                 },
             },
             css: {
-                files: ['css/*.scss'],
+                files: ['css/*.scss', 'news/wp-content/themes/twentytwelve-child/scss/style.scss'],
                 tasks: ['sass'],
                 options: {
                     spawn: false,

@@ -15,7 +15,7 @@
 				<ul>
 					<li><a href="/home/">Home</a></li>
 					<li><a href="/contact/">Contact</a></li>
-					<li><a href="http://isrcapital.wordpress.com">Blog</a></li>
+					<li><a href="/news/">News</a></li>
 					<li><a href="http://isrcapital.sharefile.com">Log in</a></li>
 				</ul>
 			</div>
